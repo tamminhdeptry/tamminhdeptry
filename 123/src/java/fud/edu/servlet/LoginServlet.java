@@ -26,6 +26,7 @@ public class LoginServlet extends HttpServlet {
             throws ServletException, IOException {
         request.setAttribute("MESSAGE", "");
         request.getRequestDispatcher("Login.jsp").forward(request, response);
+        System.out.print("cc");
     }
 
     
